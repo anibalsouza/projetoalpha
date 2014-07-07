@@ -6,7 +6,7 @@
  $dbname = 'as_9c3707fe0da5f93'; // AddOn do WebHost da Microsoft, cleardbmysqldatabase
  $dbuser = 'bbbeaa52ac3cae'; // AddOn do WebHost da Microsoft, cleardbmysqldatabase
  $dbpass = 'c8e34f99'; // AddOn do WebHost da Microsoft, cleardbmysqldatabase
- $appname = "AlphaRun"; // 
+ $appname = "AlphaRun!"; // 
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die($connection->connect_error);
