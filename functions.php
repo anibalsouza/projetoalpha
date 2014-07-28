@@ -3,9 +3,9 @@
 //###################################################################################################
 
  $dbhost = 'us-cdbr-azure-east-a.cloudapp.net'; // AddOn do WebHost da Microsoft, cleardbmysqldatabase
- $dbname = 'as_9c3707fe0da5f93'; // AddOn do WebHost da Microsoft, cleardbmysqldatabase
- $dbuser = 'bbbeaa52ac3cae'; // AddOn do WebHost da Microsoft, cleardbmysqldatabase
- $dbpass = 'c8e34f99'; // AddOn do WebHost da Microsoft, cleardbmysqldatabase
+ $dbname = 'alphaDB'; // AddOn do WebHost da Microsoft, cleardbmysqldatabase
+ $dbuser = 'bd2c96a6e0c2bb'; // AddOn do WebHost da Microsoft, cleardbmysqldatabase
+ $dbpass = '19ac62f1'; // AddOn do WebHost da Microsoft, cleardbmysqldatabase
  $appname = "AlphaRun!"; // 
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
